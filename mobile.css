@@ -1,4 +1,4 @@
-* {
+*{
     padding: 0;
     margin: 0;
 }
@@ -14,7 +14,7 @@ body {
 
 /* Header */
 
-header{
+header {
     grid-area: header;
 }
 
@@ -26,7 +26,7 @@ header{
     border-bottom: 0.2em solid white;
     position: absolute;
     grid-area: header;
-    
+
 
 }
 
@@ -54,17 +54,19 @@ nav {
     width: 50%;
     height: 100vh;
 }
-.navbar{
-    
+
+.navbar {
+
     display: flex;
     height: 100%;
     flex-direction: column;
     justify-content: space-evenly;
-    
 
 
-}   
-nav a{
+
+}
+
+nav a {
     width: 100%;
 }
 
