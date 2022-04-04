@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: black;
     
 }
 
@@ -35,39 +36,59 @@ header {
 
 ul {
     display: grid;
-    grid-template-columns: repeat(5,auto);
+    grid-template-columns: repeat(5,20%);
     list-style: none;
     text-align: center;
     background-color: none;
     color: violet;
     padding: 0;
     margin: 2px;
+    
 }
 a{
  text-decoration: none;
- color: white;
+ 
+ 
 }
 .active{
     border-radius: 90%;
+    box-shadow: inset -1px -2px 6px 2px red;
+    color: orange;
+    text-shadow: 1px 1px 3px white;
+    font-size: 16pt;
+    
+}
+.active:hover{
+    font-size: 16pt;
+}
+.not_active{
+    border-radius: 90%;
+   
+    color: lawngreen;
+    font-size: 16pt;
+}
+.not_active:hover{
     box-shadow: inset -1px -2px 6px 2px lime;
-    color: black;
+    text-shadow: 1px 1px 3px white;
 }
 ul.navbar{
     width: 100vw;
     
 }
 
+/* main */
 main {
     background-color: darkblue;
     color: white;
     grid-area: main;
 }
-
+/* aside */
 aside {
     background-color: lightgreen;
     grid-area: aside;
 }
 
+/* footer */
 footer {
     background-color: darkgreen;
     color: white;
