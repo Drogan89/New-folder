@@ -27,7 +27,7 @@ h1 {
 }
 
 header {
-    background-color: blue;
+    background: none;
     color: white;
     padding: 20px;
     grid-area: header;
@@ -39,7 +39,7 @@ ul {
     grid-template-columns: repeat(5,20%);
     list-style: none;
     text-align: center;
-    background-color: none;
+    background: none;
     color: violet;
     padding: 0;
     margin: 2px;
@@ -47,7 +47,8 @@ ul {
 }
 a{
  text-decoration: none;
- 
+ color: lawngreen;
+ background: none;
  
 }
 .active{
@@ -56,6 +57,7 @@ a{
     color: orange;
     text-shadow: 1px 1px 3px white;
     font-size: 16pt;
+    
     
 }
 .active:hover{
@@ -66,6 +68,7 @@ a{
    
     color: lawngreen;
     font-size: 16pt;
+    
 }
 .not_active:hover{
     box-shadow: inset -1px -2px 6px 2px lime;
@@ -78,19 +81,19 @@ ul.navbar{
 
 /* main */
 main {
-    background-color: darkblue;
+    background: none;
     color: white;
     grid-area: main;
 }
 /* aside */
 aside {
-    background-color: lightgreen;
+    background: none;
     grid-area: aside;
 }
 
 /* footer */
 footer {
-    background-color: darkgreen;
+    background: none;
     color: white;
     grid-area: footer;
 }
@@ -99,4 +102,150 @@ footer {
 
 main {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* background */
+
+
+.backG {
+    position: fixed;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    left: -5%;
+    top: -8%;
+    background-image: radial-gradient(yellow -290%, black 96%);
+    animation: move1 20s infinite;
+    z-index: -10;
+}
+
+.backG2{
+    position: fixed;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    left: -5%;
+    top: -8%;
+    background-image: radial-gradient(yellow -290%, black 96%);
+    animation: move2 20s infinite;
+    z-index: -999;
+}
+.backG3{
+    position: fixed;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    left: -5%;
+    top: -8%;
+    background-image: radial-gradient(yellow -290%, black 96%);
+    animation: move3 20s infinite;
+    z-index: -999;
+}
+.backG4{
+    position: fixed;
+    height: 25vw;
+    width: 25vw;
+    border-radius: 50%;
+    left: -5%;
+    top: -8%;
+    background-image: radial-gradient(yellow -290%, black 96%);
+    animation: move4 20s infinite;
+    z-index: -999;
+}
+
+@keyframes move1 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    
+    17% {
+        transform: translate(0vw, 0vh);
+    }
+    34% {
+        transform: translate(0vw, 85vh);
+    }
+    51% {
+        transform: translate(85vw, 85vh);
+    }
+    68% {
+        transform: translate(85vw, 0vh);
+    }
+    84%{
+        transform: translate(0vw, 0vh);
+    }
+    100% {
+        transform: translate(0vw, 0vh);
+    }
+}
+@keyframes move2 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    
+    17% {
+        transform: translate(29vw, 0vh);
+    }
+    34% {
+        transform: translate(29vw, 85vh);
+    }
+    51% {
+        transform: translate(85vw, 85vh);
+    }
+    68% {
+        transform: translate(85vw, 29vh);
+    }
+    84%{
+        transform: translate(0vw, 29vh);
+    }
+    100% {
+        transform: translate(0vw, 0vh);
+    }
+}
+@keyframes move3 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    
+    17% {
+        transform: translate(58vw, 0vh);
+    }
+    34% {
+        transform: translate(58vw, 85vh);
+    }
+    51% {
+        transform: translate(85vw, 85vh);
+    }
+    68% {
+        transform: translate(85vw, 58vh);
+    }
+    84%{
+        transform: translate(0vw, 58vh);
+    }
+    100% {
+        transform: translate(0vw, 0vh);
+    }
+}
+@keyframes move4 {
+    0% {
+        transform: translate(0vw, 0vh);
+    }
+    
+    17% {
+        transform: translate(85vw, 0vh);
+    }
+    34% {
+        transform: translate(85vw, 85vh);
+    }
+    51% {
+        transform: translate(85vw, 85vh);
+    }
+    68% {
+        transform: translate(85vw, 85vh);
+    }
+    84%{
+        transform: translate(0vw, 85vh);
+    }
+    100% {
+        transform: translate(0vw, 0vh);
+    }
 }
