@@ -59,6 +59,8 @@ a {
     text-decoration: none;
     color: lawngreen;
     background: none;
+    display: block;
+    border-radius: 90%;
 
 }
 
