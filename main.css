@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
 
@@ -27,26 +27,31 @@ header {
 /* Main */
 main {
     background: none;
-    color: white;
-    grid-area: main;
+    
+    
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
 
+
 /* Right side bar */
 aside {
-    background-color: lightgreen;
-    grid-area: aside;
+    
+    
+    background-color: lawngreen;
+    
+    padding: 6%;
+    z-index: 1;
+    border-radius: 28px;
+    margin: 6%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* Footer */
 footer {
-    background-color: darkgreen;
-    color: white;
-    grid-area: footer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
 }
 
 
-
-/* Background */
