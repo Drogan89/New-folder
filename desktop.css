@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: black;
+    background-color: darkgrey;
     
 }
 
@@ -26,6 +26,10 @@ h1 {
     padding: 1em;
     background: none;
 }
+h2{
+    padding: 1em;
+    background: none;
+}
 
 header {
     background: none;
@@ -41,7 +45,7 @@ ul {
     grid-template-columns: repeat(5,20%);
     list-style: none;
     text-align: center;
-    background: none;
+    
     color: violet;
     padding: 0;
     margin: 2px;
@@ -55,10 +59,11 @@ a{
 }
 .active{
     border-radius: 90%;
-    box-shadow: inset -1px -2px 6px 2px red;
-    color: orange;
+    box-shadow: inset -1px -2px 6px 2px green;
+    color: black;
     text-shadow: 1px 1px 3px white;
     font-size: 16pt;
+    background-color: lawngreen;
     
     
 }
@@ -67,9 +72,9 @@ a{
 }
 .not_active{
     border-radius: 90%;
-   
     color: lawngreen;
     font-size: 16pt;
+    background-color: black;
     
 }
 .not_active:hover{
@@ -83,9 +88,15 @@ ul.navbar{
 
 /* main */
 main {
-    opacity: 50%;
+    opacity: 25%;
     color: white;
     grid-area: main;
+    font-family:'Righteous', cursive;
+ 
+}
+p{
+    background-color: lawngreen;
+    min-height: 10em;
 }
 /* aside */
 aside {
@@ -116,8 +127,8 @@ main {
     border-radius: 50%;
     left: -5%;
     top: -8%;
-    background-image: radial-gradient(yellow -290%, black 96%);
-    animation: move1 20s infinite;
+    background-image: radial-gradient(yellow -290%, black 56%);
+    animation: move1 20s infinite ease;
     z-index: -10;
 }
 
@@ -128,8 +139,8 @@ main {
     border-radius: 50%;
     left: -5%;
     top: -8%;
-    background-image: radial-gradient(yellow -290%, black 96%);
-    animation: move2 20s infinite;
+    background-image: radial-gradient(yellow -290%, black 56%);
+    animation: move2 30s infinite ease;
     z-index: -999;
 }
 .backG3{
@@ -139,8 +150,8 @@ main {
     border-radius: 50%;
     left: -5%;
     top: -8%;
-    background-image: radial-gradient(yellow -290%, black 96%);
-    animation: move3 20s infinite;
+    background-image: radial-gradient(yellow -290%, black 56%);
+    animation: move3 20s infinite ease;
     z-index: -999;
 }
 .backG4{
@@ -150,8 +161,8 @@ main {
     border-radius: 50%;
     left: -5%;
     top: -8%;
-    background-image: radial-gradient(yellow -290%, black 96%);
-    animation: move4 20s infinite;
+    background-image: radial-gradient(yellow -290%, black 56%);
+    animation: move4 30s infinite ease;
     z-index: -999;
 }
 
