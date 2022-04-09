@@ -1,8 +1,8 @@
-*{
+* {
     padding: 0;
     margin: 0;
     background-color: darkgrey;
-    
+
 }
 
 .off {
@@ -27,7 +27,8 @@ h1 {
     padding: 1em;
     background: none;
 }
-h2{
+
+h2 {
     padding: 1em;
     background: none;
 }
@@ -39,26 +40,29 @@ header {
     grid-area: header;
     opacity: 50%;
 }
+
 /* Navigation */
 
 ul {
     display: grid;
-    grid-template-columns: repeat(5,20%);
+    grid-template-columns: repeat(5, 20%);
     list-style: none;
     text-align: center;
-    
+
     color: violet;
     padding: 0;
-    
-    
+
+
 }
-a{
- text-decoration: none;
- color: lawngreen;
- background: none;
- 
+
+a {
+    text-decoration: none;
+    color: lawngreen;
+    background: none;
+
 }
-.active{
+
+.active {
     border-radius: 90%;
     box-shadow: inset -1px -2px 6px 2px green;
     color: black;
@@ -66,84 +70,105 @@ a{
     font-size: 16pt;
     background-color: lawngreen;
     z-index: 1;
-    
-    
+
+
 }
-.active:hover{
+
+.active:hover {
     font-size: 16pt;
 }
-.not_active{
+
+.not_active {
     border-radius: 90%;
     color: lawngreen;
     font-size: 16pt;
     background-color: black;
     z-index: 1;
-    
+
 }
-.not_active:hover{
+
+.not_active:hover {
     box-shadow: inset -1px -2px 6px 2px lime;
     text-shadow: 1px 1px 3px white;
 }
-ul.navbar{
+
+ul.navbar {
     width: 100vw;
-    
+
 }
 
 /* main */
 main {
-    
+
     grid-area: main;
-  
+
     z-index: 1;
 }
-.body{
-   min-height: 10em; 
+
+.body {
+    min-height: 10em;
     font-size: 14pt;
     background-color: black;
     color: grey;
     padding: 2%;
-    
+
     border-radius: 28px;
     margin: 1%;
 }
+
 /* Portfolio images */
-.portfolio1{
-    grid-area: main;
+.portmain {
+    column-count: 2;
+    margin-top: 1%;
+
+
+}
+
+.portfolio1 {
+
     width: 37vw;
     margin: 1%;
     margin-top: 2%;
 }
-.portfolio2{
-    grid-area: main;
+
+.portfolio2 {
+
     width: 37vw;
     margin: 1%;
     margin-top: 2%;
 }
+
 /* aside */
 aside {
     font-size: 11pt;
     grid-area: aside;
-    background-color: lime;
-    color: black;
-    padding: 5%;
     
+
+    padding: 11%;
+
     border-radius: 28px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+
+
+}
+
+aside p {
+    background: none;
+
 }
 
 /* footer */
 footer {
-   
+
     color: white;
     grid-area: footer;
 }
-.foot{
+
+.foot {
     height: 3em;
     background-color: black;
     color: grey;
     padding: 2%;
-    
+
     border-radius: 28px;
     margin: 1%;
 }
@@ -169,7 +194,7 @@ main {
     z-index: -10;
 }
 
-.backG2{
+.backG2 {
     position: fixed;
     height: 25vw;
     width: 25vw;
@@ -180,7 +205,8 @@ main {
     animation: move2 30s infinite ease;
     z-index: -999;
 }
-.backG3{
+
+.backG3 {
     position: fixed;
     height: 25vw;
     width: 25vw;
@@ -191,7 +217,8 @@ main {
     animation: move3 20s infinite ease;
     z-index: -999;
 }
-.backG4{
+
+.backG4 {
     position: fixed;
     height: 25vw;
     width: 25vw;
@@ -207,94 +234,117 @@ main {
     0% {
         transform: translate(0vw, 0vh);
     }
-    
+
     17% {
         transform: translate(0vw, 0vh);
     }
+
     34% {
         transform: translate(0vw, 85vh);
     }
+
     51% {
         transform: translate(85vw, 85vh);
     }
+
     68% {
         transform: translate(85vw, 0vh);
     }
-    84%{
+
+    84% {
         transform: translate(0vw, 0vh);
     }
+
     100% {
         transform: translate(0vw, 0vh);
     }
 }
+
 @keyframes move2 {
     0% {
         transform: translate(0vw, 0vh);
     }
-    
+
     17% {
         transform: translate(29vw, 0vh);
     }
+
     34% {
         transform: translate(29vw, 85vh);
     }
+
     51% {
         transform: translate(85vw, 85vh);
     }
+
     68% {
         transform: translate(85vw, 29vh);
     }
-    84%{
+
+    84% {
         transform: translate(0vw, 29vh);
     }
+
     100% {
         transform: translate(0vw, 0vh);
     }
 }
+
 @keyframes move3 {
     0% {
         transform: translate(0vw, 0vh);
     }
-    
+
     17% {
         transform: translate(58vw, 0vh);
     }
+
     34% {
         transform: translate(58vw, 85vh);
     }
+
     51% {
         transform: translate(85vw, 85vh);
     }
+
     68% {
         transform: translate(85vw, 58vh);
     }
-    84%{
+
+    84% {
         transform: translate(0vw, 58vh);
     }
+
     100% {
         transform: translate(0vw, 0vh);
     }
 }
+
 @keyframes move4 {
     0% {
         transform: translate(0vw, 0vh);
     }
-    
+
     17% {
         transform: translate(85vw, 0vh);
     }
+
     34% {
         transform: translate(85vw, 85vh);
     }
+
     51% {
         transform: translate(85vw, 85vh);
     }
+
     68% {
         transform: translate(85vw, 85vh);
     }
-    84%{
+
+    84% {
         transform: translate(0vw, 85vh);
     }
+
     100% {
         transform: translate(0vw, 0vh);
     }
