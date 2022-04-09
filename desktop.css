@@ -106,6 +106,19 @@ main {
     border-radius: 28px;
     margin: 1%;
 }
+/* Portfolio images */
+.portfolio1{
+    grid-area: main;
+    width: 37vw;
+    margin: 1%;
+    margin-top: 2%;
+}
+.portfolio2{
+    grid-area: main;
+    width: 37vw;
+    margin: 1%;
+    margin-top: 2%;
+}
 /* aside */
 aside {
     font-size: 11pt;
