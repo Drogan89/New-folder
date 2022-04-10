@@ -147,15 +147,17 @@ main {
     grid-template-columns: auto auto;
     grid-gap: 1vh;
     min-height: 30vh;
+    padding: 5%;
 }
 
 .conlabel{
     font-size: 11pt;
-    color: black;
+    color: lawngreen;
     border-radius: 10px;
-    padding-top: 2%;
-    text-align: center;
+    padding-top: 4%;
+    text-align: end;
     font-weight: 600;
+    background: none;
 }
 .coninput{
     
@@ -172,6 +174,9 @@ main {
 }
 input::placeholder{
     color: blue;
+}
+input#check{
+    align-self: center;
 }
 select{
     background-color: gray;
