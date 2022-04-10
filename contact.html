@@ -52,8 +52,22 @@
         </ul>
     </nav>
     <main>
-        <p class="body">
-         
+        
+        <form class="contact" action="mailto:peter.drogan21@my.northampton.ac.uk?subject=Contact Form" method="POST">
+            <label class="conlabel" for="email">Your E-mail address </label><input class="coninput" placeholder="example@abc.com" oninvalid="this.setCustomValidity('E-mail address is required')" required>
+            <label class="conlabel" for="check">I would like to receive updates to my email</label><input type="checkbox" name="check" id="check">
+            <textarea placeholder="Feel free to enter your email here.  It won't make any difference as it can't be included in the mailto using only CSS.  Come back later in the year for a fully functioning form" class="context" name="contacttext" required="p">
+            </textarea>
+            <select name="Reason for contact" id="drop">
+                <option selected="selected" disabled>Please select reason</option>
+                <option value="1">Fan mail</option>
+                <option value="2">Advice</option>
+                <option value="3">Donations</option>
+            </select>
+
+            <input class="congo" type="submit" value="go" name="go">        
+        
+        
         </p>
     </main>
     <aside>
