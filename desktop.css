@@ -4,6 +4,10 @@
     background-color: darkgrey;
 
 }
+body{
+    margin-left: 2px;
+    margin-right: 2px;
+}
 
 .off {
     display: none;
@@ -11,11 +15,11 @@
 
 body {
     display: grid;
-    grid-template-columns: 40vw 40vw 20vw;
+    grid-template-columns: 40% 40% 20%;
     grid-template-rows: auto;
     grid-template-areas:
         "header header header "
-        "nav nav nav"
+        "nav1 nav2 nav3"
         "main main aside"
         "footer footer footer ";
 }
@@ -48,9 +52,8 @@ ul {
     grid-template-columns: repeat(5, 20%);
     list-style: none;
     text-align: center;
-
-    color: violet;
     padding: 0;
+    grid-gap: 1vw;
 
 
 }
@@ -95,8 +98,9 @@ a {
 }
 
 ul.navbar {
-    width: 100vw;
-
+    width: 70vw;
+    margin-left: 14vw;
+    margin-right: 16vw;
 }
 
 /* main */
@@ -142,12 +146,14 @@ main {
 /* Contact form */
 
 .contact{
-    background-color: black;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 1vh;
-    min-height: 30vh;
-    padding: 5%;
+  margin-top: 2%;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 2vh;
+  min-height: 30vh;
+  padding: 5%;
+  border-radius: 28px;
 }
 
 .conlabel{
@@ -163,28 +169,39 @@ main {
     
     background-color: gray;
     padding-left: 1%;
+    min-height: 36px;
+    border-radius: 10px;
     
+}
+.coninput:required{
+    border-color: red;
 }
 .coninput::placeholder{
     color: black;
     opacity: 50%;
 }
 .context{
-    color: blue;
+    color: black;
+    font-size: 11pt;
+    width: 100%;
+    min-height: 100px;
+    max-height: fit-content;
+    resize: none;
 }
 input::placeholder{
     color: blue;
 }
 input#check{
-    align-self: center;
+    align-self: end;
 }
 select{
-    background-color: gray;
-    color: white;
+    
+    
+    max-height: 36px;
 }
-option{
-    background-color: gray;
-    color: white;
+option:nth-child(2n+3){
+    background-color: green;
+    
 }
 
 .congo{
@@ -192,17 +209,23 @@ option{
     grid-column: 2;
     border-radius: 90%;
     opacity: 50%;
+    min-height: 36px;
+}
+.congo:hover{
+    background-color: lawngreen;
+    border-color: lime;
+    font-weight: 600;
 }
 
 /* aside */
 aside {
     font-size: 11pt;
     grid-area: aside;
-    
-
     padding: 11%;
-
     border-radius: 28px;
+    margin-top: 6%;
+    margin-right: 1%;
+    margin-left: 4%;
 
 
 }
@@ -220,13 +243,11 @@ footer {
 }
 
 .foot {
-    height: 3em;
     background-color: black;
     color: grey;
     padding: 2%;
-
     border-radius: 28px;
-    margin: 1%;
+    margin-top: 1%;
 }
 
 

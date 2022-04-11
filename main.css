@@ -38,16 +38,12 @@ main {
 /* Right side bar */
 aside {
 
-
     background-color: lime;
-
     color: black;
     z-index: 1;
-    border-radius: 28px;
-    margin: 6%;
-    margin-right: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 /* Footer */
 footer {
