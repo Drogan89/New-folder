@@ -16,6 +16,26 @@ body {
 
 header {
     grid-area: header;
+    color: white;
+}
+
+/* Aside */
+aside{
+    margin: 0;
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+}
+
+/* Footer */
+.foot{
+    margin: 0%;
+    padding: 3%;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    margin-top: 1%;
 }
 
 .shownav {
@@ -47,12 +67,12 @@ header {
 
 nav {
     display: none;
-    background-color: red;
     position: fixed;
     margin-top: 0;
     right: 50%;
     width: 50%;
     height: 100vh;
+    z-index: 2;
 }
 
 .navbar {
@@ -88,4 +108,8 @@ nav a {
 
 #clicked:target nav {
     display: block;
+}
+#columnsblog{
+    display: flex;
+    flex-direction: column;
 }
