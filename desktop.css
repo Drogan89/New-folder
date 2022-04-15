@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: darkgrey;
+    background-image: linear-gradient(45deg, black, transparent);
 
 }
 body{
@@ -59,7 +59,9 @@ ul {
 
 
 }
-
+nav{
+    background: none;
+}
 a {
     text-decoration: none;
     color: lawngreen;
@@ -103,6 +105,7 @@ ul.navbar {
     width: 70vw;
     margin-left: 14vw;
     margin-right: 16vw;
+    background: none;
 }
 
 /* main */
@@ -169,10 +172,12 @@ main {
 }
 .coninput{
     
-    background-color: gray;
+    
     padding-left: 1%;
     min-height: 36px;
     border-radius: 10px;
+    
+    background: gray;
     
 }
 .coninput:required{
@@ -184,11 +189,13 @@ main {
 }
 .context{
     color: black;
-    font-size: 11pt;
+    font-size: 12pt;
     width: 100%;
     min-height: 100px;
     max-height: fit-content;
     resize: none;
+    background: gray;
+    cursor: pointer;
 }
 input::placeholder{
     color: blue;
@@ -198,7 +205,7 @@ input#check{
 }
 select{
     
-    
+    background: gray;
     max-height: 36px;
 }
 option:nth-child(2n+3){
@@ -207,7 +214,7 @@ option:nth-child(2n+3){
 }
 
 .congo{
-    background-color: gray;
+ 
     grid-column: 2;
     border-radius: 90%;
     opacity: 50%;
@@ -216,7 +223,8 @@ option:nth-child(2n+3){
 .congo:hover{
     background-color: lawngreen;
     border-color: lime;
-    font-weight: 600;
+    font-weight: 800;
+    cursor: black;
 }
 
 /* Blog */
@@ -255,7 +263,8 @@ aside {
     margin-left: 4%;
     padding-top: 5%;
     padding-left: 5%;
-
+    height: fit-content;
+    padding-bottom: 3%;
 
 }
 

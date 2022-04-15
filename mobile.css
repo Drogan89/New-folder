@@ -41,11 +41,11 @@ aside{
 .shownav {
     height: 0.8em;
     width: 1.25em;
-    display: block;
     border-top: 0.2em solid white;
     border-bottom: 0.2em solid white;
     position: absolute;
     grid-area: header;
+    border-radius: revert;
 
 
 }
@@ -75,12 +75,15 @@ nav {
     z-index: 2;
 }
 
-.navbar {
-
+ul.navbar {
     display: flex;
     height: 100%;
     flex-direction: column;
     justify-content: space-evenly;
+    background-color: gray;
+    margin: 0;
+    margin-top: -48px;
+    width: 100%;
 
 
 
@@ -112,4 +115,9 @@ nav a {
 #columnsblog{
     display: flex;
     flex-direction: column;
+    margin: 1%;
+}
+/* portfolio */
+.portmain{
+    padding-left: 7%;
 }
