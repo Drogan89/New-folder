@@ -4,7 +4,8 @@
     background-image: linear-gradient(45deg, black, transparent);
 
 }
-body{
+
+body {
     margin-left: 2px;
     margin-right: 2px;
 }
@@ -12,9 +13,11 @@ body{
 .off {
     display: none;
 }
-p{
+
+p {
     background: none;
 }
+
 body {
     display: grid;
     grid-template-columns: 40% 40% 20%;
@@ -59,9 +62,11 @@ ul {
 
 
 }
-nav{
+
+nav {
     background: none;
 }
+
 a {
     text-decoration: none;
     color: lawngreen;
@@ -124,7 +129,7 @@ main {
     padding: 2%;
 
     border-radius: 28px;
-    margin-top: 2%; 
+    margin-top: 2%;
 }
 
 /* Portfolio images */
@@ -148,20 +153,21 @@ main {
     margin: 1%;
     margin-top: 2%;
 }
+
 /* Contact form */
 
-.contact{
-  margin-top: 2%;
-  background-color: black;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 2vh;
-  min-height: 30vh;
-  padding: 5%;
-  border-radius: 28px;
+.contact {
+    margin-top: 2%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2vh;
+    min-height: 30vh;
+    padding: 5%;
+    border-radius: 28px;
 }
 
-.conlabel{
+.conlabel {
     font-size: 11pt;
     color: lawngreen;
     border-radius: 10px;
@@ -170,24 +176,28 @@ main {
     font-weight: 600;
     background: none;
 }
-.coninput{
-    
-    
+
+.coninput {
+
+
     padding-left: 1%;
     min-height: 36px;
     border-radius: 10px;
-    
+
     background: gray;
-    
+
 }
-.coninput:required{
+
+.coninput:required {
     border-color: red;
 }
-.coninput::placeholder{
+
+.coninput::placeholder {
     color: black;
     opacity: 50%;
 }
-.context{
+
+.context {
     color: black;
     font-size: 12pt;
     width: 100%;
@@ -197,30 +207,36 @@ main {
     background: gray;
     cursor: pointer;
 }
-input::placeholder{
+
+input::placeholder {
     color: blue;
 }
-input#check{
+
+input#check {
     align-self: end;
 }
-select{
-    
+
+select {
+
     background: gray;
     max-height: 36px;
-}
-option:nth-child(2n+3){
-    background-color: green;
-    
+    grid-column: 2;
 }
 
-.congo{
- 
+option:nth-child(2n+3) {
+    background-color: green;
+
+}
+
+.congo {
+
     grid-column: 2;
     border-radius: 90%;
     opacity: 50%;
     min-height: 36px;
 }
-.congo:hover{
+
+.congo:hover {
     background-color: lawngreen;
     border-color: lime;
     font-weight: 800;
@@ -228,27 +244,30 @@ option:nth-child(2n+3){
 }
 
 /* Blog */
-#columnsblog{
-column-count: 3;
+#columnsblog {
+    column-count: 3;
 }
 
-.blog1{
+.blog1 {
     display: block;
     background-color: black;
     break-inside: avoid-column;
-    
+
 }
-.blog2{
+
+.blog2 {
     display: inline-block;
     background-color: black;
-    
+
 }
-.blog3{
+
+.blog3 {
     display: block;
     background-color: black;
-    
+
 }
-.columnimage{
+
+.columnimage {
     max-width: -webkit-fill-available;
 }
 
@@ -264,7 +283,7 @@ aside {
     padding-top: 5%;
     padding-left: 5%;
     height: fit-content;
-    padding-bottom: 3%;
+    padding-bottom: 7%;
 
 }
 
@@ -293,7 +312,8 @@ footer {
     margin-right: 2%;
 
 }
-.foot a img{
+
+.foot a img {
     height: 23px;
 }
 
