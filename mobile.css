@@ -48,6 +48,8 @@ aside{
     position: absolute;
     grid-area: header;
     border-radius: revert;
+    margin-top: 2%;
+    margin-left: 2%;
 
 
 }
