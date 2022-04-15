@@ -238,11 +238,11 @@ option:nth-child(2n+3) {
     min-height: 36px;
     cursor: pointer;
 }
+
 .congo:hover {
     background-color: lawngreen;
     border-color: lime;
     font-weight: 800;
-    cursor: black;
 }
 
 /* Blog */
@@ -269,7 +269,7 @@ option:nth-child(2n+3) {
 
 }
 
-.blogtitle{
+.blogtitle {
     text-align: center;
     color: limegreen;
 }
@@ -384,7 +384,7 @@ main {
 @keyframes move1 {
     0% {
         transform: translate(0vw, 0vh);
-        transform: rotate(180);
+
     }
 
     17% {

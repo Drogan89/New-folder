@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -20,8 +20,8 @@ header {
 }
 
 /* Aside */
-aside{
-       margin: 0;
+aside {
+    margin: 0;
     margin-top: 1%;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -31,7 +31,7 @@ aside{
 }
 
 /* Footer */
-.foot{
+.foot {
     margin: 0%;
     padding: 3%;
     display: flex;
@@ -116,12 +116,14 @@ nav a {
 #clicked:target nav {
     display: block;
 }
-#columnsblog{
+
+#columnsblog {
     display: flex;
     flex-direction: column;
     margin: 1%;
 }
+
 /* portfolio */
-.portmain{
+.portmain {
     padding-left: 7%;
 }
