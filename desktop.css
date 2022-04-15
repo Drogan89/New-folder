@@ -33,13 +33,16 @@ body {
 
 
 h1 {
+    font-size: 29pt;
     padding: 1em;
     background: none;
+    text-align: center;
 }
 
 h2 {
     padding: 1em;
     background: none;
+    text-align: center;
 }
 
 header {
@@ -122,12 +125,11 @@ main {
 }
 
 .body {
-    min-height: 10em;
+    min-height: 48.5vh;
     font-size: 14pt;
     background-color: black;
     color: grey;
     padding: 2%;
-
     border-radius: 28px;
     margin-top: 2%;
 }
@@ -234,8 +236,8 @@ option:nth-child(2n+3) {
     border-radius: 90%;
     opacity: 50%;
     min-height: 36px;
+    cursor: pointer;
 }
-
 .congo:hover {
     background-color: lawngreen;
     border-color: lime;
@@ -265,6 +267,11 @@ option:nth-child(2n+3) {
     display: block;
     background-color: black;
 
+}
+
+.blogtitle{
+    text-align: center;
+    color: limegreen;
 }
 
 .columnimage {
